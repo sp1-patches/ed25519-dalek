@@ -23,7 +23,7 @@ features = ["nightly", "batch"]
 
 [dependencies]
 # curve25519-dalek = { version = "3", default-features = false }
-curve25519-dalek = { git = "https://github.com/sp1-patches/curve25519-dalek.git", branch = "patch-curve25519-v3.2.0", default-features = false }
+curve25519-dalek = { git = "https://github.com/sp1-patches/curve25519-dalek.git", branch = "patch-curve25519-v3.2.0", default-features = false, version = "3.2.0" }
 ed25519 = { version = "1", default-features = false }
 merlin = { version = "2", default-features = false, optional = true }
 rand = { version = "0.8", default-features = false, optional = true }
